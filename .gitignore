@@ -1,7 +1,7 @@
 /*
-!/HomelessIdle
-/HomelessIdle/*
-!/HomelessIdle/Assets
-/HomelessIdle/Assets/*
-!/HomelessIdle/Assets/Core
+!/IdleLife
+/IdleLife/*
+!/IdleLife/Assets
+/IdleLife/Assets/*
+!/IdleLife/Assets/Core
 *.gitignore
