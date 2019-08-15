@@ -111,6 +111,8 @@ namespace Core.Controller
             jobView.SetDataContext(jobModelView);
             //Set active will check if its active or not. We don't need to do that here.
             itemViewGo.SetActive(true);
+            
+            
         }
     }
 }

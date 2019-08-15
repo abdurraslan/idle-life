@@ -5,3 +5,4 @@
 /IdleLife/Assets/*
 !/IdleLife/Assets/Core
 *.gitignore
+!*.*.meta
