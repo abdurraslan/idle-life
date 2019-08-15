@@ -57,7 +57,7 @@ namespace Core.View
             bindingSet.Bind(this.BuyButtonBackground).For(v => v.color)
                 .ToExpression(vvm => vvm.CanPlayerBuy ? Color.green : Color.white)
                 .OneWay();
-
+        
             bindingSet.Bind(this.BuyButton).For(v => v.interactable)
                 .ToExpression(vvm => vvm.CanPlayerBuy).OneWay();
 

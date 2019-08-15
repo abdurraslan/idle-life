@@ -124,7 +124,7 @@ namespace Core.ViewModel
         {
             Model.WorkProgress += (operation.GetCurrentWorkerProgress());
             this.CanPlayerBuy = operation.CanPlayerBuy();
-            if (Model.WorkProgress > 1)
+            if (Model.WorkProgress >= 1)
             {
                 JobCompleted();
             }
